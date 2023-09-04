@@ -1,0 +1,53 @@
+<!-- HTML -->
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" contant="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <h1 align="center" style="color:rgb(102, 95, 95);">Simple Calculator</h1>
+        <div id="container0">
+            <div class="container1">
+                <input type="text" id='res' placeholder="0">
+            </div>
+            <div id="container2">
+                <div class="row">
+                    <button class="b n" onclick="cle('C')">C</button>
+                    <button class="b n" onclick="del('DEl')">DEL</button>
+                    <button class="b" onclick="dis('%')">%</button>
+                    <button class="b" onclick="dis('/')">/</button>
+                </div>
+                <div class="row">    
+                    <button class="b" onclick="dis('9')">9</button>
+                    <button class="b" onclick="dis('8')">8</button>
+                    <button class="b" onclick="dis('7')">7</button>
+                    <button class="b" onclick="dis('*')">*</button>
+                </div>
+                <div class="row">
+                    <button class="b" onclick="dis('6')">6</button>
+                    <button class="b" onclick="dis('5')">5</button>
+                    <button class="b" onclick="dis('4')">4</button>
+                    <button class="b" onclick="dis('-')">-</button>
+                </div>
+                <div class="row"">  
+                    <button class="b" onclick="dis('3')">3</button>
+                    <button class="b" onclick="dis('2')">2</button>
+                    <button class="b" onclick="dis('1')">1</button>
+                    <button class="b" onclick="dis('+')">+</button>
+               </div>
+                <div class="row">
+                    <button class="b " id="pull" onclick="dis('.')">.</button>
+                    <button class="b b0" onclick="dis('0')">0</button>
+                    <button class="b n" id="E" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+        <div id="foot" style="color:rgb(102, 95, 95);"><p ><center>&copy;Copy right, This is created by Thura Venkata Naveen.</center></p></div>
+        
+    <script src="functioning.js"></script>
+    </body>
+</html>

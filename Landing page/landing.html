@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("https://res.cloudinary.com/dnks0eksd/image/upload/v1693546414/pexels-pixabay-533931_cw13ks.jpg");
+            background-size: cover;
+            height: 100vh;
+            
+        }
+    .links{
+        position: absolute;
+        top:20px;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    .links a{
+        text-decoration: none;
+        font-size:150%;
+        color: #fff;
+        font-weight:500;
+        font-family: "Helvetica Neue",Helvetica,Arial;
+        transition: 0.5s;
+        position: relative;
+        padding: 5px;
+    }
+
+    a:after{
+        content: "";
+        position: absolute;
+        background: rgb(248, 243, 248);
+        height: 2px;
+        width: 0%;
+        left: 0px;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    
+
+    a:hover:after{
+        width: 100%;
+    }
+
+        .head{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .head .main{
+            color:#fff;
+            font-size: 60px;
+            text-align: center;
+            text-shadow: 6px 5px 3px black;
+            text-transform: uppercase;
+        }
+
+        .head .sub{
+            color:white;
+            text-align: center;
+            text-shadow: 0px 0px 3px black;
+            padding: 5px;
+            font-size: larger;
+        }
+        #btn{
+            background-color: rgb(238, 244, 245);
+            padding: 10px;
+            margin-top: 7%;
+            border-radius: 8px;
+            width: 126px;
+            height: 38px;
+            align-self: center;
+            color: #black;
+            font-size: 15px;
+            font-family: "Helvetica Neue",Helvetica,Arial;
+            position: absolute;
+            left:40%;
+            box-shadow: 6px 5px 3px black;
+        }
+
+        .c{
+            position: absolute;
+            bottom: 2%;
+            color: #fff;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media screen and (max-width:600px) {
+
+            body{
+            background-image: url("https://res.cloudinary.com/dnks0eksd/image/upload/v1693552079/pexels-pixabay-533931_1_se4hlf.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .head{
+            position: absolute;
+            left: 50%;
+            top:28%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .head .main{
+            color:#fff;
+            font-size: 23px;
+            text-align: center;
+            text-shadow: 6px 5px 3px black;
+            text-transform: uppercase;
+        }
+
+        .head .sub{
+            color:white;
+            text-align: center;
+            text-shadow: 0px 0px 3px black;
+            padding: 3%;
+            margin-top: 5%;
+            font-size: medium;
+        }
+
+        .links{
+            position: absolute;
+        top:30px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+
+
+    }
+        
+    .links a{
+        text-decoration: none;
+        font-size:80%;
+        color: #fff;
+        font-weight:00;
+        font-family: "Helvetica Neue",Helvetica,Arial;
+        transition: 0.5s;
+        position: relative;
+        padding: 3px;
+    }
+
+        #btn{
+            background-color: rgb(238, 244, 245);
+            padding: 10px;
+            margin-top: 7%;
+            border-radius: 8px;
+            width: 115px;
+            height: 33px;
+            
+            align-self: center;
+            color: black;
+            font-size: 15px;
+            font-family: "Helvetica Neue",Helvetica,Arial;
+            position: absolute;
+            place-items: center;
+            
+        }
+
+    }
+
+
+    </style>
+</head>
+<body id="b">
+    <div class="card">
+        <nav class="navi">
+            <div class="logo">
+                <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1693475364/Picsart_23-08-31_14-51-24-648_vyufqg.png" height="60px" style="padding: 5px;">
+            </div>
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">Service</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">FAQ</a>
+
+
+            </div>
+            
+        </nav>
+        <div class="head">
+            <h1 class="main"> Landing page </h1>
+            <p class="sub">A landing page is a page that a visitor arrives (lands) on after clicking on a call to action (CTA) for an offer.</p>
+            <button id="btn">learn more</button>
+        </div>
+        
+    </div>
+    <p class="c">&copy;Powered by Thura Venkata Naveen.</p>
+</body>
+</html>

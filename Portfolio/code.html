@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/80be721e4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1692783521/Picsart_23-08-23_15-06-54-108_sdpv9n.png" height="100px" >
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#port"">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="head-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Thura Venkata Naveen </span><br>from Kadapa</h1> 
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="col-1">
+                    <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1692878120/bfspv5tmh3epqyjhxflx.jpg" alt="not found">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-titles">About me</h1>
+                    <p >
+                        <pre>      </pre>Hello, I'm Thura Venkata Naveen from Sri Veera Brahmemdra Nagar in Brahmamgari mattam [Mandal].I am 19 years old.Let me tell you about my schooling.I studied at Deepthi high school.I completed my Diploma at Government Polytechnic, Proddutur. Now i am studing BTech 2nd year at Sri Venkateshwara University, Tirupati.There are five members in my family .My father is attender in Irrigation Department and my mother is housewife. I have two sisters, who's name is Sreevani and Nikitha. <br> <br>My hobbies is learning new technologies, watching reels, playing cricket, spending time with friends etc..
+                    </p>
+                    <div class="tabs">
+                        <p class="tab-l active-link" onclick="naveen('Skills')">Skills</p>
+                        <p class="tab-l" onclick="naveen('Education')">Education</p>
+
+                    </div>
+                    <div class="tabs-content active-tab " id="Skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>I can create websites.</li>
+                            <li><span>Python Trainee</span><br>I had been learning Python programming.</li>
+                            <li><span>Core Java</span><br>I known the basics of core java programming.</li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content" id="Education">
+                        <ul>
+                            <li><span>2020</span><br>Deepthi High School.</li>
+                            <li><span>2020 - 2023</span><br>Government Polytechnic, Proddutur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="port">
+        <h1 id="subheading">My Work </h1>
+            <div class="work">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1692862346/samsung-605439_1280_1_oct0z3.jpg" height="500px" alt="">
+                    <div class="txt">
+                        <h1>Music</h1>
+                        <p>Music is best medicine for all problems.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1692862346/work-1162083_1280_1_hv0nyg.jpg" height="500px" alt="">
+                    <div class="txt"><h1>Hard Work</h1>
+                        <p>Hardwork can do any thing.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dnks0eksd/image/upload/v1692862356/student-849825_1280_1_k6vf8t.jpg" alt="" height="500px">
+                    <div class="txt"><h1>Social media</h1>
+                        <p>Most of time spent on social media like youtube, linkedin, etc.. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <button  class="btn" ><a href=""> See More </a></button>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> venkatanaveendcme@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 7731852077</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/venkata-naveen-thura"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@svbnagar"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                    <a href="https://drive.google.com/file/d/1rdqpbCmwJACXirxt9sLiILnh9onZl7nd/view?usp=sharing" class="btn btn1" download >Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#">
+                        <input type="text" name="Name" id="" placeholder="Your name">
+                        <input type="email" name="mail" id="" placeholder="Your mail">
+                        <textarea name="area" id="" cols="30" rows="10" placeholder="Your meassage" class="d"></textarea>
+                        <button class="btn btn1 d">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <center><span id="copyright">&copy;Copyright, This is made by Thura Venkata Naveen.</<span></center>
+    </div>
+
+
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName('tab-l');
+        var tabcontent = document.getElementsByClassName('tabs-content');
+        
+        function naveen(inp){
+            // document.write('<h1 style="color:red">tablinks',tablinks);
+            for(tb of tablinks){
+                tb.classList.remove('active-link');
+            }
+            
+        
+            for(tc of tabcontent){
+                tc.classList.remove('active-tab');
+            }
+
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(inp).classList.add('active-tab');
+        }
+    </script>
+</body>
+</html>
+
